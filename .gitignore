@@ -1,0 +1,5 @@
+# Claude Code local settings (machine/session-specific)
+.claude/
+
+# macOS noise
+.DS_Store
