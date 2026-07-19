@@ -3,6 +3,7 @@
 ## How the user wants to learn (inferred — confirm in session)
 - **Bilingual delivery:** concept explained in Chinese (fast), practice in English. Matches the byoungd guide they trust.
 - **Navigation chrome is English-only:** footer pager links (prev/next, "Course home", "Connected speech reference") and other UI nav must be all-English and consistent across every page — even though lesson *body* content stays bilingual. (User flagged session 1 after 0002/daily shipped with Chinese pagers.)
+- **Body font = Mac system font (SF Pro), not serif.** The original Charter serif felt uncomfortable to the user; body now uses `var(--sans)` → `-apple-system` (SF Pro on macOS, degrades to Segoe UI / system-ui elsewhere). Chinese falls through to PingFang SC. If a future design wants a serif again, the `--serif` variable is still defined but unused.
 - **Commute-friendly:** anything audio / shadowable fits the 20-min subway window. Text lessons must be very short.
 - **Don't compete with Duolingo** — complement it. Duolingo stays the daily anchor; these lessons layer real skills on top.
 
