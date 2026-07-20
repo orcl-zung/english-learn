@@ -295,6 +295,18 @@ blockquote .src { display: block; font-family: var(--sans); font-size: .78rem; c
 .v-body { font-size: .93rem; color: var(--ink-soft); margin-top: .28rem; line-height: 1.6; }
 .v-body .zh { font-size: .95em; }
 
+/* grammar: clause highlighting (Phase 2) — colour-code clauses & connectors */
+.sent { font-size: 1.12rem; line-height: 1.8; margin: .7rem 0; font-family: var(--sans); }
+.sent .dep { color: var(--accent); }                    /* dependent/subordinate clause */
+.sent .ind { color: var(--ink); }                       /* independent (main) clause */
+.sent .conn { font-weight: 700; background: var(--accent-soft); color: var(--accent); padding: .05em .35em; border-radius: 3px; }
+.sent.wrong { background: rgba(178,90,31,.10); border-left: 3px solid var(--warn); padding: .45rem .75rem; border-radius: 0 5px 5px 0; }
+.sent.right { background: var(--accent-soft); border-left: 3px solid var(--accent); padding: .45rem .75rem; border-radius: 0 5px 5px 0; }
+.sent .mark { font-family: var(--sans); font-weight: 700; margin-right: .35em; }
+.sent.wrong .mark { color: var(--warn); }
+.sent.right .mark { color: var(--accent); }
+.legend { font-family: var(--sans); font-size: .82rem; color: var(--ink-faint); margin: .6rem 0 1.2rem; }
+
 /* stress-shift demo (lesson 0005) — mark the stressed word unmistakably */
 .ss { padding: .75rem 0; border-bottom: 1px solid var(--rule); }
 .ss:last-child { border-bottom: none; }

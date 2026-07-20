@@ -59,3 +59,35 @@ Words that carry meaning and get stressed: nouns, main verbs, adjectives, adverb
 
 **Function word:**
 Grammar words that get reduced to weak forms: articles, prepositions, auxiliaries, pronouns, conjunctions.
+
+## Grammar (sentence structure)
+
+**Clause:**
+A subject + a (finite) verb — the basic building block. Independent clauses can stand alone; dependent clauses cannot.
+
+**Independent clause (主句):**
+A clause that forms a complete sentence on its own: *She works in London.*
+
+**Dependent clause (从句):**
+A clause that cannot stand alone; it starts with a subordinator or relative pronoun and must attach to a main clause: *because I was tired*, *that I bought*.
+
+**Simple sentence (简单句):**
+One independent clause: *I like coffee.*
+
+**Compound sentence (并列句):**
+Two or more independent clauses joined by a FANBOYS coordinator or a semicolon: *I was tired, so I went to bed.*
+
+**Complex sentence (复合句):**
+One independent clause plus one or more dependent clauses: *Because I was tired, I went to bed.*
+
+**FANBOYS:**
+The seven coordinating conjunctions — For, And, Nor, But, Or, Yet, So — used to join independent clauses in compound sentences.
+
+**Comma splice (逗号拼接):**
+Two independent clauses joined by only a comma — a common error: ✗ *I love London, it's a great city.*
+
+**Run-on (流水句):**
+Two independent clauses with no punctuation between them: ✗ *I was tired I went to bed.*
+
+**Fragment (残句):**
+A dependent clause or incomplete structure passed off as a full sentence: ✗ *Because I was tired.*
